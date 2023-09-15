@@ -3,7 +3,11 @@ body {
   overflow: hidden;
 }
 
-header, footer { text-align:center; width: 100%; }
+header,
+footer {
+  text-align: center;
+  width: 100%;
+}
 
 header {
   height: 40px;
@@ -37,9 +41,9 @@ footer {
 }
 
 #content-wrapper {
-  position:relative;
+  position: relative;
   top: 0px;
-  left: 0px
+  left: 0px;
 }
 
 #playpause {
@@ -92,7 +96,8 @@ footer {
   overflow: hidden;
 }
 
-#content, #adcontainer {
+#content,
+#adcontainer {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -113,14 +118,15 @@ footer {
   margin-right: auto;
 }
 
-#companionDiv, #customClick {
+#companionDiv,
+#customClick {
   width: 728px;
   height: 90px;
   margin-top: 20px;
 }
 
 #customClick {
-  background-color: #807F80;
+  background-color: #807f80;
   display: none;
   text-align: center;
 }
@@ -134,4 +140,11 @@ footer {
   color: blue;
   text-decoration: underline;
   cursor: pointer;
+}
+
+#pip {
+  display: block;
+  width: 88%;
+  height: 40px;
+  margin: 20px auto;
 }
